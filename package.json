@@ -1,0 +1,19 @@
+{
+  "name": "rentuki",
+  "version": "1.0.0",
+  "description": "Home Rent Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snanilim/rentuki.git"
+  },
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snanilim/rentuki/issues"
+  },
+  "homepage": "https://github.com/snanilim/rentuki#readme"
+}
