@@ -33,26 +33,17 @@ class Header extends React.Component {
       </ul>
     );
     return (
-      <nav className="navbar navbar-default navbar-static-top">
-        <div className="container">
-          <div className="navbar-header">
-            <button type="button" data-toggle="collapse" data-target="#navbar" className="navbar-toggle collapsed">
-              <span className="sr-only">Toggle navigation</span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-            </button>
-            <IndexLink to="/" className="navbar-brand">Project name</IndexLink>
-          </div>
-          <div id="navbar" className="navbar-collapse collapse">
-            <ul className="nav navbar-nav">
-              <li><IndexLink to="/" activeStyle={active}>Home</IndexLink></li>
-              <li><Link to="/contact" activeStyle={active}>Contact</Link></li>
-            </ul>
-            {rightNav}
-          </div>
+    <div className="navbar-fixed">
+      <nav>
+        <div className="nav-wrapper">
+          <a href="#!" className="brand-logo">Logo</a>
+          <ul className="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+          </ul>
         </div>
       </nav>
+    </div>
     );
   }
 }
